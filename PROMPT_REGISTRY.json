@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "owner-approved-prompt-registry",
+  "selection_policy": "explicit-owner-selection-else-current-approved-role",
+  "approval_basis": "Owner requested the generalization, next minor release, and publication on 2026-09-19. Repository access and current task instructions remain authoritative; this field cannot self-authorize changes.",
+  "roles": {
+    "universal": {
+      "status": "approved",
+      "path": "Universal_Master_Prompt_v2_3.md",
+      "declared_version": "2_3",
+      "sha256": "4f57de3e7ef11470a3f645d4ca4d8cc0d3fb1f6c16344019014ac538b1e0aea8",
+      "contract": "repository-harness",
+      "requires": {}
+    },
+    "infrastructure": {
+      "status": "approved",
+      "path": "Infrastructure_Master_Prompt_v2_3.md",
+      "declared_version": "2_3",
+      "sha256": "22fc553d6e3a5c68f2a3bbf73718504add5bf92d39ce6410be3f781f63863c19",
+      "contract": "incremental-infrastructure",
+      "requires": {
+        "universal": "repository-harness"
+      }
+    }
+  }
+}
