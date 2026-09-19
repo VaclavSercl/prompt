@@ -4,7 +4,7 @@
 
 ### 0.1 Load the universal master prompt first
 
-The two owner-selected documents are `AI_Infrastructure_Master_Prompt_EN_v1_1.md` and `Universal_Master_Prompt_v2_1.md`. Preserve these exact filenames and their version identifiers unless the owner explicitly changes them.
+The two owner-selected documents are `Infrastructure_Master_Prompt_v1_1.md` and `Universal_Master_Prompt_v2_1.md`. Preserve these exact filenames and their version identifiers unless the owner explicitly changes them.
 
 Before architecture selection or implementation, locate and read the complete owner-supplied `Universal_Master_Prompt_v2_1.md`. Check current attachments and the explicitly authorized project location first. If it is already available, use it; do not ask the owner to upload it again. If it is absent, unreadable, incomplete, or an ambiguous duplicate, request the exact document or ask which supplied copy is authoritative. Never reconstruct it from memory, substitute a similarly named internet prompt, or silently choose a different version.
 
